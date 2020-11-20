@@ -1,0 +1,12 @@
+.registration-block
+    +form('open-block__form')
+        +title('registration-block__headind', 'Войти')
+        +input('registration-block__input', 'Email')
+        +input('registration-block__input', 'Пароль')
+        +button('registration-block__button button__arrow', 'Войти')
+        .form__open
+            p.text Нет аккаунта на Toxin?
+            +button('registration-block__button button__white', 'создать')
+
+
+

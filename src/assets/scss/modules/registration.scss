@@ -1,0 +1,48 @@
+.registration-block {
+  background: url('../img/image4.jpg') no-repeat center center /cover;
+  width: 100%;
+  height: 684px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  .registration-block__headind{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .registration-block__input {
+    margin-bottom: 8px;
+  }
+  .input-radio__label {
+    margin-right: 25px;
+  }
+  .form__row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: -3px;
+    margin-bottom: 21px;
+    }
+  }
+  .form__open {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+
+    .text {
+      font-family: $mainFont;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #000000;
+      letter-spacing: 0.9px;
+    }
+}

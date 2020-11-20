@@ -1,0 +1,52 @@
+.filter-block
+    .dropdown-block
+        p.dropdown-block__title даты пребывания в отеле
+        select.dropdown-block__select
+            option 19 авг - 23 авг
+    .dropdown-block
+        p.dropdown-block__title гости
+        select.dropdown-block__select
+            option 3 гостя, 1 младенец
+    .slider-block
+        p.slider-block__title диапазон цены
+        p.slider-block__range-rubles 5 000₽ - 10 000₽
+        input.slider-block__toddler
+        p.slider-block__description Стоимость за сутки пребывания в номере
+    .checkbox-block
+        p.checkbox-block__title правила дома
+        .checkbox-block__row
+            input.checkbox-block__checkbox(type='checkbox' name="option1" value="a1" id='smoke')
+            label.checkbox-block__condition(for='smoke') Можно курить
+        .checkbox-block__row
+            input.checkbox-block__checkbox(type='checkbox' name="option2" value="a2" id='pet' checked)
+            label.checkbox-block__condition(for='pet') Можно с питомцами
+        .checkbox-block__row
+            input.checkbox-block__checkbox(type='checkbox' name="option3" value="a3" id='guests' checked)
+            label.checkbox-block__condition(for='guests') Можно пригласить гостей (до 10 человек)
+
+    .checkbox-block
+        p.checkbox-block__title доступность
+        .checkbox-block__row
+            input.checkbox-block__checkbox(type='checkbox' name="corridor" value="a1" id='corridor')
+            label.checkbox-block__strong(for='corridor') Широкий коридор
+            p.checkbox-block__light Ширина коридоров в номере не менее 91 см.
+        .checkbox-block__row
+            input.checkbox-block__checkbox(type='checkbox' name="helper" value="a1" id='helper')
+            label.checkbox-block__strong(for='helper') Помощник для инвалидов
+            p.checkbox-block__light На 1 этаже вас встретит специалист  и проводит до номера.
+    .dropdown-block
+        p.dropdown-block__title удобства номера
+        select.dropdown-block__select
+            option 2 спальни, 2 кровати...
+    .checkbox-js-block
+        p.checkbox-js-block__title дополнительные удобства
+            img.checkbox-js-block__arrow(src='../../assets/img/demo-arrow.svg', alt='arrow')
+
+
+
+
+
+
+
+
+

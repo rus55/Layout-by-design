@@ -1,0 +1,34 @@
+// Fonts here
+// see more: https://github.com/vedees/webpack-template/blob/master/README.md#import-js-files
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: bold;
+  src:  url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: bold;
+  src:  url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../fonts/Quicksand-Bold.ttf');
+}

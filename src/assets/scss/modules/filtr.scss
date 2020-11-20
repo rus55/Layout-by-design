@@ -1,0 +1,184 @@
+.filter-block {
+  padding-top: 31px;
+  width: 266px;
+
+  .dropdown-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .dropdown-block__title{
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 15px;
+      color: #1F2041;
+      text-transform: uppercase;
+    }
+    .dropdown-block__select {
+      width: 266px;
+      height: 44px;
+      background: #FFFFFF;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: url('../img/demo-arrow.png') no-repeat scroll center center;
+      background-position: right 17px center;
+      -webkit-appearance: none;
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: rgba(31, 32, 65, 0.75);
+      padding-left: 14px;
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+  }
+  .slider-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 11px;
+
+    .slider-block__title {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #1F2041;
+    }
+    .slider-block__range-rubles {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: right;
+      text-transform: uppercase;
+      color: rgba(31, 32, 65, 0.5);
+    }
+    .slider-block__toddler {
+      width: 266px;
+      height: 6px;
+      background: #FFFFFF;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 3px;
+      margin-top: 22px;
+      margin-bottom: 15px;
+
+    }
+    .slider-block__description {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(31, 32, 65, 0.5);
+
+    }
+  }
+  .checkbox-block {
+    margin-top: 29px;
+
+
+    .checkbox-block__title {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #1F2041;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .checkbox-block__row {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+
+      .checkbox-block__checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+      }
+      .checkbox-block__checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+      }
+      .checkbox-block__checkbox+label::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 4px;
+        margin-right: 9px;
+      }
+      .checkbox-block__checkbox:checked+label::before {
+        border: 1px solid #BC9CFF;
+        background: url('../img/vector.png') no-repeat scroll center center;
+      }
+
+      .checkbox-block__condition {
+        font-family: 'Montserrat-Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgba(31, 32, 65, 0.5);
+        width: 192px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .checkbox-block {
+
+    .checkbox-block__strong {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 15px;
+      color: rgba(31, 32, 65, 0.75);
+      margin-bottom: 8px;
+    }
+    .checkbox-block__light {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(31, 32, 65, 0.5);
+      padding-left: 29px;
+      margin-bottom: 18px;
+    }
+  }
+  .checkbox-js-block {
+    font-family: 'Montserrat-Regular';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #1F2041;
+    width: 100%;
+
+    .checkbox-js-block__arrow {
+       padding-left: 29px;
+    }
+  }
+}

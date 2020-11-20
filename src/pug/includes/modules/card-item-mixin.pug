@@ -1,0 +1,25 @@
+mixin card(number, price, review, lux, img, stars)
+    .catalog-block
+        .catalog-block__image
+            img(src=img)
+        +characteristics('catalog-block__characteristics', number, lux, price)
+        .catalog-block__stars-and-reviews
+            case stars
+                when '0'
+                    +stars('', '', '', '', '')
+                when '1'
+                    +stars('active', '', '', '', '')
+                when '2'
+                    +stars('active', 'active', '', '', '')
+                when '3'
+                    +stars('active', 'active', 'active', '', '')
+                when '4'
+                    +stars('active', 'active', 'active', 'active', '')
+                when '5'
+                    +stars('active', 'active', 'active', 'active', 'active')
+                default
+                    +stars('active', 'active', 'active', 'active', 'active')
+            .catalog-block__reviews-number #{review}
+            .catalog-block__reviews Отзывов
+
+

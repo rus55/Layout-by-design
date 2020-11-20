@@ -1,0 +1,12 @@
+.main-block
+    .container
+        +form('main-block__form')
+            +title('main-block__headind', 'Найдём номера под ваши пожелания')
+            .form__50of50.form__50of50_mb
+                +select('form__select form__select_fs15', 'Прибытие', 'ДД.ММ.ГГГГ')
+                +select('form__select form__select_fs15', 'Выезд', 'ДД.ММ.ГГГГ')
+            +select('main-block__select', 'Гости', 'Сколько гостей')
+            +button('main-block__button button__arrow', 'Подобрать номер')
+        .main-block__text-description Лучшие номера для вашей работы, отдыха и просто вдохновения
+
+

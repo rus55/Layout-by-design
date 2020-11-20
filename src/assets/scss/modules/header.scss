@@ -1,0 +1,102 @@
+// header style
+
+.header {
+  display: flex;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+
+  .container {
+    margin: 0 auto;
+    width: 1160px;
+    height: 70px;
+
+    .header-content {
+      flex-direction: row;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      .logo {
+        display: flex;
+        margin-right: auto;
+        padding-top: 15px;
+        width: 105.69px;
+        height: 40px;
+      }
+
+      .nav {
+        padding-top: 26px;
+        height: 21px;
+        width: 446px;
+        order: 1;
+
+
+        ul.nav__menu {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Montserrat-Regular';
+          font-size: 14px;
+          font-style: normal;
+          font-weight: normal;
+          list-style-type: none;
+          color: rgba(31, 32, 65, 0.5);
+          margin-left: 0;
+          padding-left: 0;
+
+
+          .nav__arrow {
+            width: 24px;
+            height: 8px;
+
+          }
+        }
+      }
+      .open {
+        padding-top: 18px;
+        padding-left: 20px;
+        order: 1;
+
+        .open__border {
+          background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+          border-radius: 22px;
+          padding: 2px;
+
+          .open__button {
+            font-family: 'Montserrat-Regular';
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #BC9CFF;
+            background-color: #fff;
+            font-weight: bold;
+            width: 83px;
+            height: 30px;
+            border-radius: 22px;
+            border: none;
+            box-sizing: border-box;
+
+          }
+        }
+      }
+      .registration {
+        padding-top: 18px;
+        padding-left: 20px;
+        order: 1;
+
+        .registration__btn {
+          width: 196px;
+          height: 34px;
+          font-size: 12px;
+          font-weight: bold;
+          background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+          border-radius: 22px;
+          border: none;
+          color: #fff;
+          text-transform: uppercase;
+          font-family: 'Montserrat-Regular';
+          box-sizing: border-box;
+          line-height: 14.63px;
+        }
+      }
+    }
+  }
+}

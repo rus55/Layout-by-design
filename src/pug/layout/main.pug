@@ -1,0 +1,30 @@
+include ../utils/mixins
+include ../includes/modules/title
+include ../includes/modules/form-mixin
+include ../includes/modules/input-mixin
+include ../includes/modules/input-radio-mixin
+include ../includes/modules/second-title-mixin
+include ../includes/modules/rounded-mixin
+include ../includes/modules/gray-text-mixin
+include ../includes/modules/button-mixin
+include ../includes/modules/characteristics-mixin
+include ../includes/modules/select-mixin
+block variables
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title #{title}
+    meta(name="description", content=description)
+    block head
+
+  body(class=pageClass)
+    .wrapper
+      #app
+        include ../includes/modules/header
+        block content
+
+        include ../includes/modules/footer
+
+    block script

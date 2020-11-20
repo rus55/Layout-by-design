@@ -1,0 +1,16 @@
+.rating {
+  display: flex;
+  padding-left: 23px;
+  letter-spacing: 1.2px;
+
+  span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    background: url("../img/star-white.png") no-repeat scroll center center;
+  }
+  span.active {
+    background: url('../img/star-full.png') no-repeat scroll center center;
+  }
+}

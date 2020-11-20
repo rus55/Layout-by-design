@@ -1,0 +1,48 @@
+.input-radio {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
+  display: none;
+
+}
+.input-radio__label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 33px;
+  margin-right: 0;
+  line-height: 18px;
+  user-select: none;
+
+}
+.input-radio__label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+/* Checked */
+.input-radio[type=radio]:checked + label:before {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 10px;
+  background: url('../img/circle.png') no-repeat;
+  background-position: center;
+  background-size: 12px;
+  border: 1px solid #BC9CFF;
+  box-sizing: border-box;
+}
+.input-radio__label {
+  font-family: $mainFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+
+}

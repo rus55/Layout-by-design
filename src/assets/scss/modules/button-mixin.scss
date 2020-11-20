@@ -1,0 +1,52 @@
+.button {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  width: 320px;
+  height: 44px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  font-family: $mainFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+}
+.button__arrow {
+  span {
+    background: url('../img/arrow_forward.png') no-repeat scroll center right;
+    width: 97%;
+    letter-spacing: 0.7px;
+  }
+}
+.button__white {
+  width: 99px;
+  height: 44px;
+  padding: 2px;
+  border-radius: 22px;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  margin: -5px;
+
+  span {
+    font-family: $mainFont;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    background: #FFFFFF;
+    border-radius: 22px;
+    width: 100%;
+    padding: 12px 11px;
+    letter-spacing: 1.0px;
+  }
+}
+

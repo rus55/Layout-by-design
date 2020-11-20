@@ -1,0 +1,25 @@
+include ../utils/mixins
+include ../includes/modules/stars
+include ../includes/modules/card-item-mixin
+include ../includes/modules/characteristics-mixin
+include ../includes/modules/title
+block variables
+
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title #{title}
+        meta(name="description", content=description)
+        block head
+
+    body(class=pageClass)
+        .wrapper
+            #app
+                include ../includes/modules/header
+                .container
+                    include ../includes/modules/filtr
+                    include ../includes/modules/catalog-rooms
+                include ../includes/modules/footer
+
+        block script

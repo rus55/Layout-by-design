@@ -1,0 +1,51 @@
+.main-block {
+  background: url('../img/demo-slide1.jpg') no-repeat center center /cover;
+  width: 100%;
+  height: 830px;
+  margin: 0 auto;
+
+  .container {
+    align-items: flex-start;
+    height: 100%;
+    justify-content: space-between;
+
+    .main-block__form {
+      margin-top: 69px;
+
+      .main-block__headind {
+        margin-top: 9px;
+        margin-bottom: 21px;
+
+      }
+      .main-block__select {
+        margin-bottom: 29px;
+        font-size: 15px;
+
+
+      }
+    }
+    .form__50of50_mb {
+      margin-bottom: 20px;
+    }
+
+
+    .main-block__text-description {
+      font-family: $mainFont;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px;
+      text-align: right;
+      color: rgba(31, 32, 65, 0.75);
+      align-self: flex-end;
+      width: 280px;
+      padding-bottom: 21px;
+
+
+    }
+
+
+  }
+
+
+}

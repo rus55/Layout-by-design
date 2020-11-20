@@ -1,0 +1,77 @@
+.characteristics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-left: 20px;
+
+  .characteristics__number-lux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    .characteristics__number {
+      font-family: $secondFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #1F2041;
+
+    }
+    .characteristics__numbers {
+      font-family: $secondFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 23px;
+      line-height: 17px;
+      color: #1F2041;
+      padding-left: 4px;
+
+      display: flex;
+      align-items: flex-start;
+      height: 20px;
+    }
+    .characteristics__lux {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+      color: #BC9CFF;
+      padding-left: 5px;
+
+    }
+  }
+  .characteristics__price-day {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+
+
+    .characteristics__price {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 18px;
+      color: rgba(31, 32, 65, 0.5);
+      padding-left: 33px;
+
+    }
+    .characteristics__day {
+      font-family: 'Montserrat-Regular';
+      font-style: normal;
+      padding-left: 3px;
+      font-size: 13px;
+      line-height: 18px;
+      color: rgba(31, 32, 65, 0.5);
+      letter-spacing: -0.3px;
+
+    }
+  }
+}

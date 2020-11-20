@@ -1,0 +1,23 @@
+.registration-block
+        +form('registration-block__form')
+            +title('registration-block__headind', 'Регистрация аккаунта')
+            +input('registration-block__input', 'Имя')
+            +input('registration-block__input', 'Фамилия')
+            +input-radio('registration-block__input-radio', 'Мужчина', 'Man', 'checked')
+            +input-radio('registration-block__input-radio', 'Женщина', 'Woman')
+            +second-title('registration-block__second-title', 'дата рождения')
+            +input('registration-block__input', 'ДД.ММ.ГГГГ')
+            +second-title('registration-block__second-title', 'данные для входа в сервис')
+            +input('registration-block__input', 'Email')
+            +input('registration-block__input', 'Пароль')
+            .form__row
+                +rounded('registration-block__switch')
+                +gray-text('registration-block__gray-text', 'Получать спецпредложения')
+            +button('registration-block__button button__arrow', 'Перейти к оплате')
+            .form__open
+                p.text Уже есть аккаунт на Toxin
+                +button('registration-block__button button__white', 'войти')
+
+
+
+

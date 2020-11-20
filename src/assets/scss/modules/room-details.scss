@@ -1,0 +1,347 @@
+.room-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 70px;
+
+  .room-images__image1 {
+    width: 70%;
+    height: 485px;
+    background: url('../img/room-details.jpg') no-repeat center center /cover;
+  }
+  .room-images__block {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .room-images__image2 {
+      width: 100%;
+      height: 242.5px;
+      background: url('../img/room-details2.jpg') no-repeat center center /cover;
+    }
+    .room-images__image3 {
+      width: 100%;
+      height: 242.5px;
+      background: url('../img/room-details3.jpg') no-repeat center center /cover;
+    }
+  }
+}
+.container_space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.room-details {
+
+  .text {
+    flex-grow: 1;
+
+    .text__title {
+      font-family: $mainFont;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #1F2041;
+      margin-bottom: 21px;
+    }
+    .text__title_last {
+      margin-top: 6px;
+    }
+    .block-with-rows {
+      width: 93%;
+
+      .obertka-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 13px;
+
+        .text__otzyv {
+          font-family: $mainFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+          text-align: right;
+          color: rgba(31, 32, 65, 0.5);
+          margin-bottom: 16px;
+        }
+      }
+      .block-with-rows__item {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 26px;
+
+        .block-with-rows__column {
+          margin-right: 7px;
+
+          .block-with-rows__image{
+            background-size: 240%;
+            width: 48px;
+            border-radius: 45%;
+            height: 48px;
+            background-position-y: 28%;
+            background-position-x: center;
+            border: 3px solid #fff;
+            box-sizing: border-box;
+          }
+          .block-with-rows__name {
+            font-weight: bold;
+            font-size: 15px;
+          }
+          .block-with-rows__date {
+            font-size: 15px;
+            margin-top: 4px;
+          }
+          .block-with-rows__description {
+            font-family: $mainFont;
+            font-style: normal;
+            margin-top: 12px;
+            font-size: 16px;
+            line-height: 23px;
+            color: rgba(31, 32, 65, 0.75);
+          }
+        }
+      }
+
+      .block-with-rows__like-button {
+        width: 38px;
+        height: 20px;
+        padding: 1px;
+        background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+        .obertka {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          background: #FFFFFF;
+          padding: 1px 1px 1px 1px;
+          border-radius: 10px;
+          width: 36px;
+          height: 18px;
+
+          .block-with-rows__heard {
+            line-height: 1;
+            display: flex;
+          }
+          .block-with-rows__number {
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            color: #BC9CFF;
+          }
+        }
+      }
+    }
+    .block-column {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+
+      .block-row {
+        width: 46%;
+        .block-row__text {
+          font-family: $mainFont;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 24px;
+          padding-left: 46px;
+          padding-top: 28px;
+          color: rgba(31, 32, 65, 0.75);
+
+
+
+          .text-description {
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(31, 32, 65, 0.75);
+          }
+
+          .block-row__total-grey {
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+
+            li {
+              list-style-image: url('../img/circle-grey.png');
+              line-height: 30px;
+            }
+
+          }
+
+          .block-row__total{
+            .block-row__li1 {
+              list-style-image: url('../img/circle1.png');
+            }
+            .block-row__li2 {
+              list-style-image: url('../img/circle2.png');
+            }
+            .block-row__li3 {
+              list-style-image: url('../img/circle3.png');
+            }
+            .block-row__li4 {
+              list-style-image: url('../img/circle4.png');
+            }
+          }
+        }
+        .block-row__text_last {
+          padding-left: 17px;
+          padding-top: 0px;
+
+        }
+
+        hr {
+          border: none;
+          width: 280px;
+          height: 1px;
+          background: rgba(31, 32, 65, 0.1);
+          margin-bottom: 20px;
+        }
+        .block-row__column {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          margin-bottom: 20px;
+          padding-left: 5px;
+
+          .block-row__image {
+            margin-right: 6px;
+            width: 48px;
+            height: 48px;
+          }
+          .block-row__description {
+            font-family: $mainFont;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: rgba(31, 32, 65, 0.75);
+
+            .block-row__title-description {
+              font-weight: bold;
+            }
+            .block-row__description-description {
+              letter-spacing: 1.1px;
+            }
+          }
+        }
+        .block-row__row {
+          display: flex;
+          flex-direction: row;
+
+          .block-row__img {
+          }
+
+        }
+      }
+    }
+  }
+  .booking {
+
+    .booking__form {
+
+      .booking__characteristics {
+        margin-bottom: 24px;
+        padding-left: 0px;
+
+        .characteristics__price-day {
+          display: flex;
+          justify-content: flex-end;
+        }
+
+
+      }
+
+
+      .booking__select2 {
+        margin-bottom: 10px;
+
+
+      }
+
+    }
+
+    .booking__row-between {
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-between;
+      margin-bottom: 10px;
+
+
+
+      .booking__row-between-obertka {
+        width: 240px;
+        display: flex;
+      }
+
+
+      .booking__row-between-text{
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: rgba(31, 32, 65, 0.75);
+        width: 218px;
+
+      }
+      .booking__row-between-text-right {
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: rgba(31, 32, 65, 0.75);
+
+      }
+
+      .booking__row-between-bold-text {
+        font-family: $mainFont;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 23px;
+        color: #1F2041;
+
+      }
+      .booking__row-between-dotted {
+        border-bottom: 1px dashed rgba(31, 32, 65, 0.25);
+        box-sizing: border-box;
+        flex-grow: 1;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+
+
+      }
+
+
+    }
+    .booking__row-between_margin {
+      margin-bottom: 19px;
+      margin-top: 32px;
+    }
+    .booking__button {
+      margin-bottom: 0px;
+
+    }
+  }
+
+}
