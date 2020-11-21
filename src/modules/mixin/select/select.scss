@@ -1,6 +1,4 @@
 .drop-down {
-
-
   .drop-down__title {
     font-family: $mainFont;
     font-style: normal;
@@ -10,8 +8,6 @@
     text-transform: uppercase;
     color: #1F2041;
     margin-bottom: 5px;
-
-
   }
   .drop-down__select2 {
     background: #FFFFFF;
@@ -24,14 +20,11 @@
     background-position: right 17px center;
     -webkit-appearance: none;
 
-
     font-family: $mainFont;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
-
-
   }
 }

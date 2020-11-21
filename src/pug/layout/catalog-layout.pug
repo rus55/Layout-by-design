@@ -1,8 +1,8 @@
 include ../utils/mixins
-include ../includes/modules/stars
-include ../includes/modules/card-item-mixin
-include ../includes/modules/characteristics-mixin
-include ../includes/modules/title
+include ../../modules/mixin/stars/stars
+include ../../modules/mixin/card-item/card-item
+include ../../modules/mixin/characteristics/characteristics
+include ../../modules/mixin/title/title
 block variables
 
 doctype html
@@ -16,10 +16,10 @@ html(lang='en')
     body(class=pageClass)
         .wrapper
             #app
-                include ../includes/modules/header
+                include ../../modules/header/header
                 .container
-                    include ../includes/modules/filtr
-                    include ../includes/modules/catalog-rooms
-                include ../includes/modules/footer
+                    include ../../modules/filtr/filtr
+                    include ../../modules/catalog-rooms/catalog-rooms
+                include ../../modules/footer/footer
 
         block script

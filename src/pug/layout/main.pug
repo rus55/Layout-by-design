@@ -1,14 +1,14 @@
 include ../utils/mixins
-include ../includes/modules/title
-include ../includes/modules/form-mixin
-include ../includes/modules/input-mixin
-include ../includes/modules/input-radio-mixin
-include ../includes/modules/second-title-mixin
-include ../includes/modules/rounded-mixin
-include ../includes/modules/gray-text-mixin
-include ../includes/modules/button-mixin
-include ../includes/modules/characteristics-mixin
-include ../includes/modules/select-mixin
+include ../../modules/mixin/title/title
+include ../../modules/mixin/form/form
+include ../../modules/mixin/input/input
+include ../../modules/mixin/input-radio/input-radio
+include ../../modules/mixin/second-title/second-title
+include ../../modules/mixin/rounded/rounded
+include ../../modules/mixin/gray-text/gray-text
+include ../../modules/mixin/button/button
+include ../../modules/mixin/characteristics/characteristics
+include ../../modules/mixin/select/select
 block variables
 
 doctype html
@@ -22,9 +22,9 @@ html(lang='en')
   body(class=pageClass)
     .wrapper
       #app
-        include ../includes/modules/header
+        include ../../modules/header/header
         block content
 
-        include ../includes/modules/footer
+        include ../../modules/footer/footer
 
     block script
