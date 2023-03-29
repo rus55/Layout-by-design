@@ -1,1 +1,1 @@
-Верстка страниц по макетам из Figma с использованием PUG, SASS, WEBPACK.
+Layout of pages according to layouts from Figma using PUG, SASS, WEBPACK.
